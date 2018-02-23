@@ -1,0 +1,1 @@
+# yandex-disk-viewer-react
