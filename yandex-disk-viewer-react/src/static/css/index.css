@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.error-message {
+  position: absolute;
+  left: 30%;
+  top: 45%;
+  background: white;
+  width: 40%;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ff5821;
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
+}
+.row-item {
+  text-align: left;
+}
+.item-container {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+.item-box {
+  margin: 0 0 30px 0;
+  padding: 5px 0 5px 0;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.item-box:hover {
+  background: #ececec;;
+}
+.item-img {
+  width: 50px;
+  height: 50px;
+}
+.item-caption {
+  font-size: 0.85rem
+}
+.item-caption__date {
+  margin: 5px 0 0 0;
+  display: block;
+  color: grey;
+  font-size: 0.75rem
+}
+.sorry {
+  color: grey;
+}
+.toolbar {
+  height: 70px;
+  text-align: left;
+}
+.arrow-back {
+  display: block;
+  border-radius: 25px;
+  border: 1px solid grey;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.arrow-back img {
+  width: 100%;
+}
+.loader {
+  position: absolute;
+  top: calc( 50% - 100px);
+  left: calc( 50% - 100px );
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: no-repeat url("../img/loader.gif") center center;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+  opacity: 0;
+}
+.row-item {
+  text-align: left;
+}
+.item-container {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+.item-box {
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 5px 0 5px 0;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  width: 50%;
+  display: inline-block;
+}
+.item-box:hover {
+  background: #ececec;;
+}
+.item-img {
+  width: 50px;
+  height: 50px;
+}
+.item-caption {
+  font-size: 0.85rem
+}
+.item-caption__date {
+  margin: 5px 0 0 0;
+  display: block;
+  color: grey;
+  font-size: 0.75rem
+}
+.sorry {
+  color: grey;
+}
+.shadow-container {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+.header-main {
+  text-align: center;
+}
+.header-main__title {
+  background: #f8d530;
+  color: #0a0a0a;
+  padding: 20px 0 20px 0;
+  border-radius: 20px 20px 0 0;
+}
+.y-letter {
+  color: #ec674c
+}
